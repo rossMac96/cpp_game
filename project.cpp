@@ -5,7 +5,7 @@
 int generateMap () {
     environment center_room("Center Room", "A room at the center of the map");
     environment cavern("cavern", "A deep cavern");
-    environment staircase("staircase", "a tall spiral staircase");
+    environment staircase("staircase", "a tall spiral stairs");
     environment mineshaft("mineshaft", "a hella dank mineshaft");
     environment cellar("cellar", "a dank cellar");
     center_room.setSurroundings(&cavern, &staircase, &mineshaft, &cellar);
